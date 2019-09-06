@@ -17,7 +17,7 @@ with TF-IDF, Word2Vec and Doc2Vec embeddings.
 The code to draw results from the lexicon method can be found here:
 https://github.com/QuantLet/TXT/tree/master/TXTfpblexical
 
-This training set is available at 
+This training set is available at:
 https://www.researchgate.net/publication/251231364_FinancialPhraseBank-v10
 
 The code for SVM parameter tuning can be found here:
