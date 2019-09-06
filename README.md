@@ -10,7 +10,12 @@ Published in : TXT
 
 Description : Sentiment classification using BERT (Devlin et al, 2018). 
 The results are evaluated using Malo et al. (2014)’s « Sentences_66Agree.txt ».  
-We use Support Vector Machine (SVM) as a baseline. 
+We compare BERT's performance for sentence classification with the lexicon method, 
+using Loughran and MacDonald (2011)'s dictionary and with Support Vector Machine (SVM) 
+with TF-IDF, Word2Vec and Doc2Vec embeddings. 
+
+The code to draw results from the lexicon method can be found here:
+https://github.com/QuantLet/TXT/tree/master/TXTfpblexical
 
 This training set is available at 
 https://www.researchgate.net/publication/251231364_FinancialPhraseBank-v10
@@ -31,4 +36,4 @@ See also : TXTfpbsupervised for SVM baseline
 
 Author : Manuel Tonneau
 
-Submitted : Thu, Sep 5 2019 by Manuel Tonneau
+Submitted : Thu, Sep 13 2019 by Manuel Tonneau
